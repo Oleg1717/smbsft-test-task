@@ -29,6 +29,7 @@ dependencies {
             "org.junit.jupiter:junit-jupiter:5.9.1",
             "org.seleniumhq.selenium:selenium-java:4.8.0",
             "io.qameta.allure:allure-junit5:$allureVersion",
+            "org.awaitility:awaitility:4.1.1",
             "org.assertj:assertj-core:3.22.0",
             "org.aeonbits.owner:owner:1.0.12")
 }
