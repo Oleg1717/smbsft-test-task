@@ -17,4 +17,7 @@ public interface ProjectConfig extends Config {
 
     @Config.Key("browser.name")
     String browserName();
+
+    @Config.Key("csv.file.path")
+    String csvFilePath();
 }
