@@ -92,11 +92,6 @@ public class CustomerAccountPage {
 
     @Step("Кликнуть кнопку 'Transactions'")
     public TransactionsPage clickTransactionsButton() {
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
         transactionsButton.click();
         return new TransactionsPage(driver);
     }
